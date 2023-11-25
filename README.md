@@ -1,4 +1,4 @@
-# PayPal-Demo
+# Team PayPal
 # PayPal Integration with JavaScript
 
 This repository demonstrates how to integrate PayPal into a web application using JavaScript. Follow the steps below to set up and test the integration.
