@@ -32,11 +32,11 @@ https://paypaldemo.onrender.com
 
    - npm Start
 
-##NOTES 
+## NOTES 
   This is a basic example. In a production environment, and does not ensure proper security measures are implemented.
   ONLY A simple integration. 
 
-##RESOURCES
+## RESOURCES
   PayPal Developer Documentation / https://developer.paypal.com/sdk/js/v1/reference/
   PayPal Developer Dashboard / https://www.paypal.com/signin?  returnUri=https%3A%2F%2Fdeveloper.paypal.com%2Fdeveloper%2Fapplications&intent=developer&ctxId=ul6fc37842020048388d6c685ca2957f2d
   Youtube Links 
@@ -45,7 +45,7 @@ https://paypaldemo.onrender.com
         https://www.youtube.com/watch?v=DNM9FdFrI1k&t=1288s
         https://www.youtube.com/watch?v=yGt33Z2qu1I&list=PLW7IVDer0bpbtaY6gZ9FGQj3ma2YBpbSy&index=5&t=6987s
   
-##Group Members:
+## Group Members:
   Abhishek K 
   Netan B
   Swara T
