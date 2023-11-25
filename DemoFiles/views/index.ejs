@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+.img{
+  display: flex;
+  height: 300px;
+  width: 200px;
+}
+
+.buy-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.buy-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.buy-form input,
+.buy-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+  </style>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+  <script src="https://www.paypal.com/sdk/js?client-id=<%= paypalClientId %>"></script>
+  <script src="/script.js" defer></script>
+</head>
+<body>
+
+  <div class="buy-form">
+    <h2>Buy Some IceCream</h2>
+    <form action="" method="post">
+      <div class="img">
+            <img src="oneScoopImg.png" alt="One Scoop" />
+            <img src="twoScoopImg.jpg" alt="two Scoop" />
+      </div>
+    
+      <label for="cAmount">Number of Cones:</label>
+      <input type="number" class="cAmount" name="cAmount" min="1" value="1" required>
+
+      <label for="sAmount">Scoop Amount:</label>
+      <input type="number" class="scoopAmount" id="scoopAmount" name="scoopAmount" value="2" required>
+      
+
+      <!-- <label for="currency">Select Currency:</label>
+      <select id="currency" name="currency" required>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="CAD">CAD</option>
+
+      </select>  
+      <button type="button" onclick="setValues" id="btn" class="btn">Confirm</button>
+    
+        <input type="submit" value="Submit"> -->
+    </form>
+      <div id="paypal"></div>
+  </div>
+
+</body>
+</html>
