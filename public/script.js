@@ -40,7 +40,7 @@ paypal
           
           items: [
             {
-              id: scoopAmount,
+              id: 1,
               quantity: cAmount,
             },
           ],
