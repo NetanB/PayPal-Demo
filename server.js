@@ -9,13 +9,16 @@ app.use(express.json())
 const paypal = require("@paypal/checkout-server-sdk")
 const Environment =
   process.env.NODE_ENV === "production"
-    paypal.core.SandboxEnvironment
+    ? paypal.core.SandboxEnvironment
+    : paypal.core.SandboxEnvironment
 const paypalClient = new paypal.core.PayPalHttpClient(
   new Environment(
     process.env.PAYPAL_CLIENT_ID,
     process.env.PAYPAL_CLIENT_SECRET
   )
 )
+//let scoopAmount = document.getElementByName('scoopAmount');
+//let "USD" = document.getElementByName('currency');
 
 const storeItems = new Map([
   [1, { price: 10, name: "One Scoop Ice Cream" }],
