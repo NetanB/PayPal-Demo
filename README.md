@@ -48,8 +48,8 @@ https://paypaldemo.onrender.com
 ## Group Members
  - Abhishek K 200520945
  - Netan B    200479857  
- - Swara T
- - Simranjit S
+ - Swara T.   200521008
+ - Simranjit S 200515492
 
 
   
